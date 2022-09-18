@@ -1,21 +1,20 @@
 public class Weapon {
-    private String typeof;
-    private String title;
+    private String typeOfWeapon;
+    private String nameOfWeapon;
 
-    public String getTypeof() {
-        return typeof;
+    public String getTypeOfWeapon() {
+        return typeOfWeapon;
     }
 
-    public void setTypeof(String typeof) {
-        this.typeof = typeof;
+    public void setTypeOfWeapon(String typeOfWeapon) {
+        this.typeOfWeapon = typeOfWeapon;
     }
 
-    public String getTitle() {
-        return title;
+    public String getNameOfWeapon() {
+        return nameOfWeapon;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setNameOfWeapon(String nameOfWeapon) {
+        this.nameOfWeapon = nameOfWeapon;
     }
-
 }
