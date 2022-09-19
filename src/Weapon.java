@@ -1,14 +1,15 @@
 public class Weapon {
-    private String typeOfWeapon;
+    WeaponType weaponType = WeaponType.COLD;
     private String nameOfWeapon;
 
-    public String getTypeOfWeapon() {
-        return typeOfWeapon;
+    public WeaponType getWeaponType() {
+        return weaponType;
     }
 
-    public void setTypeOfWeapon(String typeOfWeapon) {
-        this.typeOfWeapon = typeOfWeapon;
+    public void setWeaponType(WeaponType weaponType) {
+        this.weaponType = weaponType;
     }
+
 
     public String getNameOfWeapon() {
         return nameOfWeapon;
